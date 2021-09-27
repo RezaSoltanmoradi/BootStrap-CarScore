@@ -1,0 +1,122 @@
+.navbar {
+    background-color: var(--mainWhite);
+  }
+  .nav-icons{
+font-size: 3rem;
+position: relative;
+  }
+  .nav-icons .box{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      margin-left: -25px;
+  }
+  @font-face {
+    font-family:'Montserrat';
+    src: url("Montserrat/Montserrat-ExtraBold.ttf") format('ttf');
+}
+  .nav-link {
+    color: black;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: 0.4s  ease-in-out;
+    font-family: 'Montserrat';
+  }
+  .nav-link:hover {
+    color: rgb(0, 183, 255);
+  }
+  .header-container{
+    position: relative;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); 
+      background-color: rgb(189, 189, 189);
+      padding: 30px;
+  }
+  .header-container2{
+    position: relative;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%); 
+      background-color: rgb(179, 190, 158);
+      padding: 30px;
+  }
+  .video-container{
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .video-item{
+      width: 100%;
+      height: 100%;
+  object-fit: cover;
+  }
+  .section-title{
+      font-family: 'Montserrat';
+  }
+  .section-result{
+    transition: all .5s linear;
+
+  }
+  /* single result */
+  .service{
+background-color: black;
+color: white;
+transition: all .3s linear;
+border-radius: 10px;
+  }
+  .service:hover{
+background-color: rgb(18, 132, 177);
+color:black;
+  }
+  .target{
+    background-color: gold;
+transition: all .3s linear;
+border-radius: 10px;
+  }
+  .target:hover{
+background-color: rgb(18, 132, 177);
+}
+.img-item{
+  display: inline-block;
+  width: 60px;
+  height: 70px;
+  
+}
+.img-item2{
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+@media screen and (min-width:991px) {
+  .img-container{
+    position: relative;
+    height: 100%;
+  }
+  .card-container{
+    position: absolute;
+    width: 75%;
+    height: 300px;
+    margin-top: -310px;
+    margin-left: 200px;
+}
+}
+@media screen and (min-width:1200px) {
+  .card-container{
+    
+    margin-top: -330px;
+    margin-left: 200px;
+}
+}
+.footer{
+  background-color: rgba(0, 0, 0, 0.829);
+}
+.footer-icon{
+  font-size: 1.5rem;
+   text-decoration: none;
+   color:gold ;
+   transition: all 1s ease-in-out;
+}
+.footer-icon:hover{
+  color: rgb(0, 140, 255) ;
+}
